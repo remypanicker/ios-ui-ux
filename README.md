@@ -14,3 +14,17 @@
 
 ## Misc
 [Mobile Views: The FIVE State Solution](http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack) - Informative article about how to consider each view in your app for a more informative user experience.
+
+
+## Found an issue?
+Open a [GitHub issue](https://github.com/remypanicker/ios-ui-ux/issues) with details so that it can get fixed!
+
+## Contribute
+Open a [pull request](https://github.com/remypanicker/ios-ui-ux/pulls) or contact me with suggestions to make this collection better.
+
+## Contact
+Feel free to reach out
+
+Twitter: [@remypanicker](http://twitter.com/remypanicker)
+
+Email: [rpanicke@gmail.com](mailto:rpanicke@gmail.com)
