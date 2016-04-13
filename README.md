@@ -21,11 +21,19 @@ Xcode is an application used to write apps for various Apple platforms. Interfac
 
 UIKit is a framework provided by Apple to aid in the development of an app's user interface. UIKit has all the basic components to build just about any UI/UX you can dream up.  Understanding the basic building blocks of UIKit and their default behavior is essential to understanding which parts of your design are possible without having to develop a custom component. Having an understanding of UIKit components and their intended behavior, along with knowledge of Apple's Human Interface Guidelines, can help you design a beautiful, native UI. You can think of UIKit as a designer/developer's LEGO kit for app development.
 
+### Points vs Pixels
+
+// todo
+
 ## UX
 
 ### View States
 [Mobile Views: The FIVE State Solution](http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack) - Informative article about how to consider each view in your app for a more informative user experience.
 
+
+### Prototyping
+
+// todo
 
 ## Found an issue?
 Open a [GitHub issue](https://github.com/remypanicker/ios-ui-ux/issues) with details so that it can get fixed!
