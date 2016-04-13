@@ -8,3 +8,5 @@
 [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html)
 
 [UI Design Do’s and Don’ts](https://developer.apple.com/design/tips)
+
+[iOS 7 Transition Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TransitionGuide/index.html#//apple_ref/doc/uid/TP40013174-CH6-SW1) - This guide can be beneficial if you worked with older versions of iOS (1-6) and need a way to grasp Apple's new design principals.
