@@ -23,7 +23,15 @@ UIKit is a framework provided by Apple to aid in the development of an app's use
 
 ### Points vs Pixels
 
-// todo
+Pixel density varies across devices. The tools used to develop apps expects specifications to be in points, thus design specs should be in points. But why points and not pixels? Here's an excerpt from Apple in the official [iOS Drawing Concepts Reference](https://developer.apple.com/library/ios/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/GraphicsDrawingOverview/GraphicsDrawingOverview.html#//apple_ref/doc/uid/TP40010156-CH14-SW2)
+
+> > **One point does not necessarily correspond to one physical pixel.**
+
+> The purpose of using points (and the logical coordinate system) is to provide a consistent size of output that is device independent. For most purposes, the actual size of a point is irrelevant. The goal of points is to provide a relatively consistent scale that you can use in your code to specify the size and position of views and rendered content. How points are actually mapped to pixels is a detail that is handled by the system frameworks. For example, on a device with a high-resolution screen, a line that is one point wide may actually result in a line that is two physical pixels wide. The result is that if you draw the same content on two similar devices, with only one of them having a high-resolution screen, the content appears to be about the same size on both devices.
+
+PaintCode has created an easy-to-digest infographic which depicts the conversion from points to pixels:
+
+[The Ultimate Guide to iPhone Resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
 ## UX
 
