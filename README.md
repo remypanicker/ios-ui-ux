@@ -23,7 +23,7 @@ UIKit is a framework provided by Apple to aid in the development of an app's use
 
 Xcode is an application used to write apps for various Apple platforms. Interface Builder is a tool within Xcode which allows users to develop portions of an app visually, without having to write code. The screenshot below shows all of the UI elements available in Interface Builder.
 
-![UI Objects](https://github.com/remypanicker/ios-ui-ux/blob/master/interface-builder-uikit.png)
+[UI Objects](https://github.com/remypanicker/ios-ui-ux/blob/master/interface-builder-uikit.png)
 
 ### Points vs Pixels
 
@@ -49,11 +49,11 @@ Assets generated for iOS should be **pixel-specific** in PNG format. I know we j
 
 [Arguments against PDF assets](https://bjango.com/articles/idontusepdfs)
 
-Personally, I don't drawbacks justify switching to vector based assets. Especially when modern tools make it so easy to export @2x, @3x, etc.
+Personally, I don't think the drawbacks justify switching to vector based assets. Especially when modern design tools make it so easy to export @2x, @3x, etc.
 
 **Q:** _Why can't I provide one (rasterized) asset and let the device upscale or downscale the asset as necessary?_
 
-**A:** Are you a designer? Do you care about attention to detail? If you answered no to both of those questions, then feel free to use one rasterized asset!
+**A:** Are you a designer (self proclaimed or professional)? Do you care about attention to detail? If you answered no to both of those questions, then feel free to use one rasterized asset!
 
 ## UX
 
