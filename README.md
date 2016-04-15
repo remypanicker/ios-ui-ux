@@ -17,6 +17,8 @@
 
 UIKit is a framework provided by Apple to aid in the development of an app's user interface. UIKit has all the basic components to build nearly any UI/UX you can dream up. You can think of UIKit as a designer/developer's LEGO kit for app development. Becoming familiar with the basic components in UIKit and their default behavior is essential to understanding which parts of your design are possible without having to develop a custom component. Understanding UIKit components and  Apple's Human Interface Guidelines will enable you to design a beautiful, native UI.
 
+[UIKit User Interface Catalog](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857-UIView-SW1) - This is an invaluable reference document which describes each component in UIKit and provides information about suggested and default behaviors. Parts of this document dive into technical details, but even if you ignore those sections, this reference provides a great outline of UIKit.
+
 ### Xcode and Interface Builder
 
 Xcode is an application used to write apps for various Apple platforms. Interface Builder is a tool within Xcode which allows users to develop portions of an app visually, without having to write code. The screenshot below shows all of the UI elements available in Interface Builder.
