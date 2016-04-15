@@ -55,6 +55,10 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 
 **A:** Ideally, a compiled app would have all static assets at the exact size which they will be displayed at. Providing a smaller asset forces the device to upscale the asset. After upscaling, the asset may appear blurry, grainy, or pixelated. Alternately, providing a larger asset forces the device to downscale the image. After downscaling an asset, finer details may be harder to discern or difficult to see altogether.
 
+#### Designing for iOS
+
+[5 Things to Know When Designing for iOS](http://www.teehanlax.com/blog/5-things-to-know-when-designing-for-ios)
+
 ## UX
 
 ### View States
