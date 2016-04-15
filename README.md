@@ -41,7 +41,17 @@ PaintCode has created an easy-to-digest infographic which depicts the conversion
 
 ### Prototyping
 
-// todo
+Creating a prototype is a powerful way to quickly iterate through ideas. Prototypes are also a low(er?) cost way to validate your UX and communicate complex interactions. 
+
+[Prototyping - Fake It Till You Make It (WWDC 2014)](https://developer.apple.com/videos/play/wwdc2014/223/)
+
+#### Prototyping Tools
+
+[Flinto](https://www.flinto.com)
+[InVision](https://www.invisionapp.com)
+[Marvel](https://marvelapp.com/prototype-with-sketch/)
+[Origami](https://facebook.github.io/origami/)
+[Origami Studio](https://www.facebook.com/media/set/?set=a.606446952851229.1073741828.245766762252585&type=3) - Will be available for free late 2016.
 
 ## Found an issue?
 Open a [GitHub issue](https://github.com/remypanicker/ios-ui-ux/issues) with details so that it can get fixed!
