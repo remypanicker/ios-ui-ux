@@ -81,6 +81,28 @@ Creating a prototype is a powerful way to quickly iterate through ideas. Prototy
 
 [Origami Studio](https://www.facebook.com/media/set/?set=a.606446952851229.1073741828.245766762252585&type=3) - Will be available for free late 2016.
 
+## Deliverables
+
+After reading up on best practices and designing a beautiful, native app, it's time to hand off your masterful work. There's lots of ways to deliver your work product to developers
+
+Ideally your deliverables will adhere to the following guidelines:
+- One source of truth. There will be one, easily accessible document which can be referenced for all UI/UX guidance.
+- All assets will be exported as PNG files @2x and @3x resolution. Documentation should reference the exported assets by name. This will make it easier for other team members to easily find the correct asset when there are several assets being delivered.
+- Storyboard/artboard depicting the user flow(s) to be developed.
+- Explicit specs for font family, font weight, and font size in points.
+- When providing specs for labels, it is helpful to provide additional details such as the number of lines and how to handle long text (truncate word, wrap text, scale font, etc.).
+- Provide dimensions in points. [Sketch measure plug-in](https://github.com/utom/sketch-measure)
+- Provide all relevant layout constraints (margins, spacing between elements, etc.) in points.
+- Specify colors used in designs (preferably in RGB as Xcode defaults to defining colors in RGB).
+- Provide prototypes, videos, descriptive diagrams to document and explain how animations and interactions should be implemented.
+- Don't forget to include details about transitions and states (loading, refreshing, etc.)
+
+It's best to provide as much detail as possible. Anything which is not explicitly defined will be left to the interpretation of the developer and/or operating system. _Example: You are designing a user profile. In your designs, the user's name is displayed in System Font, 17pt on one line. You provide specs and only include information about the text font. Now it is up to the developer to determine how a long name should be displayed. If the developer doesn't explicitly specify how to handle a long name, then the label will default to iOS' default handling of text overflow on a label. The lack of additional information has introduced two paths for deviation from your original design, and that's not even including Android, Web, etc. You have been thourough in your design, now it's time to make sure those details are accurately documented so that your hard work is not lost._
+
+**Advanced asset delivery - proceed with caution**
+
+If you want to take asset delivery to the next level, add the relevant assets to the Xcode project asset catalog and submit a pull request!
+
 ## Found an issue?
 Open a [GitHub issue](https://github.com/remypanicker/ios-ui-ux/issues) with details so that it can get fixed!
 
