@@ -37,6 +37,24 @@ PaintCode has created an easy-to-digest infographic which depicts the conversion
 
 [The Ultimate Guide to iPhone Resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
+### Assets
+
+Assets generated for iOS should be **pixel-specific** in PNG format. I know we just determined that design specs should be given in points, but PNGs are already rasterized unlike programatically created views which are rasterized at runtime. Thus assets must be pixel-specific. If your app is only supporting iOS 8+, then assets should be @2x and @3x resolution.
+
+**Q:** _Why not use vector based images?_
+
+**A:** Short answer, there are still drawbacks to using vector based assets in an iOS project. A couple of articles which mention some of the difficulties are listed below:
+
+[Vector images in Xcode](http://martiancraft.com/blog/2014/09/vector-images-xcode6)
+
+[Arguments against PDF assets](https://bjango.com/articles/idontusepdfs)
+
+Personally, I don't drawbacks justify switching to vector based assets. Especially when modern tools make it so easy to export @2x, @3x, etc.
+
+**Q:** _Why can't I provide one (rasterized) asset and let the device upscale or downscale the asset as necessary?_
+
+**A:** Are you a designer? Do you care about attention to detail? If you answered no to both of those questions, then feel free to use one rasterized asset!
+
 ## UX
 
 ### View States
