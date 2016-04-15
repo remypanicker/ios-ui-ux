@@ -53,7 +53,7 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 
 **Q:** _Why can't I provide one (rasterized) asset and let the device upscale or downscale the asset as necessary?_
 
-**A:** Ideally, a compiled app would have all static assets at the exact size which they will be displayed at. Providing a smaller asset forces the device to upscale the image which usually results in blurry images since the computer needs to guess how to best scale up the image. Providing a larger asset forces the device to downscale the image. After downscaling an asset, finer details may be harder to discern or difficult to see altogether.
+**A:** Ideally, a compiled app would have all static assets at the exact size which they will be displayed at. Providing a smaller asset forces the device to upscale the asset. After upscaling, the asset may appear blurry, grainy, or pixelated. Alternately, providing a larger asset forces the device to downscale the image. After downscaling an asset, finer details may be harder to discern or difficult to see altogether.
 
 ## UX
 
