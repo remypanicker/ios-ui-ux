@@ -48,9 +48,13 @@ Creating a prototype is a powerful way to quickly iterate through ideas. Prototy
 #### Prototyping Tools
 
 [Flinto](https://www.flinto.com)
+
 [InVision](https://www.invisionapp.com)
+
 [Marvel](https://marvelapp.com/prototype-with-sketch/)
+
 [Origami](https://facebook.github.io/origami/)
+
 [Origami Studio](https://www.facebook.com/media/set/?set=a.606446952851229.1073741828.245766762252585&type=3) - Will be available for free late 2016.
 
 ## Found an issue?
