@@ -19,11 +19,11 @@ Xcode is an application used to write apps for various Apple platforms. Interfac
 
 ### UIKit
 
-UIKit is a framework provided by Apple to aid in the development of an app's user interface. UIKit has all the basic components to build just about any UI/UX you can dream up.  Understanding the basic building blocks of UIKit and their default behavior is essential to understanding which parts of your design are possible without having to develop a custom component. Having an understanding of UIKit components and their intended behavior, along with knowledge of Apple's Human Interface Guidelines, can help you design a beautiful, native UI. You can think of UIKit as a designer/developer's LEGO kit for app development.
+UIKit is a framework provided by Apple to aid in the development of an app's user interface. UIKit has all the basic components to build nearly any UI/UX you can dream up. You can think of UIKit as a designer/developer's LEGO kit for app development. Becoming familiar with the basic components in UIKit and their default behavior is essential to understanding which parts of your design are possible without having to develop a custom component. Understanding UIKit components and  Apple's Human Interface Guidelines will enable you to design a beautiful, native UI.
 
 ### Points vs Pixels
 
-Pixel density varies across devices. The tools used to develop apps expects specifications to be in points, thus design specs should be in points. But why points and not pixels? Here's an excerpt from Apple in the official [iOS Drawing Concepts Reference](https://developer.apple.com/library/ios/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/GraphicsDrawingOverview/GraphicsDrawingOverview.html#//apple_ref/doc/uid/TP40010156-CH14-SW2)
+Pixel density varies across devices. The tools used to develop apps expect specifications to be in points, thus design specs should be in points. But why points and not pixels? Here's an excerpt from Apple in the official [iOS Drawing Concepts Reference](https://developer.apple.com/library/ios/documentation/2DDrawing/Conceptual/DrawingPrintingiOS/GraphicsDrawingOverview/GraphicsDrawingOverview.html#//apple_ref/doc/uid/TP40010156-CH14-SW2)
 
 > > **One point does not necessarily correspond to one physical pixel.**
 
