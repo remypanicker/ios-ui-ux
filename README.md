@@ -59,11 +59,24 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 
 [5 Things to Know When Designing for iOS](http://www.teehanlax.com/blog/5-things-to-know-when-designing-for-ios)
 
+[Best Practices for Great iOS UI Design](https://developer.apple.com/videos/play/wwdc2013/225) - Kind of old, but still has some good info.
+
+[Ivo Mynttinen Design - iOS Design Guidelines](http://iosdesign.ivomynttinen.com)
+
+[5 Reasons Why Your Android App Should Not Mirror Your iOS App (And Vice Versa)](http://www.detroitlabs.com/blog/2015/10/28/5-reasons-you-dont-want-your-iphone-app-to-look-like-your-android-app) - ... Only 5 reasons?
+
+#### Inspiration
+
+[Mobile Design Patterns](http://pttrns.com)
+
+[Mobile Empty States](http://emptystat.es/tagged/mobile)
+
 ## UX
+
+[Thinking Like an App Designer](https://www.smashingmagazine.com/2015/04/thinking-like-an-app-designer)
 
 ### View States
 [Mobile Views: The FIVE State Solution](http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack) - Informative article about how to consider each view in your app for a more informative user experience.
-
 
 ### Prototyping
 
@@ -72,6 +85,10 @@ Creating a prototype is a powerful way to quickly iterate through ideas. Prototy
 [Prototyping - Fake It Till You Make It (WWDC 2014)](https://developer.apple.com/videos/play/wwdc2014/223/)
 
 #### Prototyping Tools
+
+[Deciding which prototyping tool to use](http://www.cooper.com/prototyping-tools)
+
+###### My Quick List:
 
 [Interface Builder](https://developer.apple.com/xcode/interface-builder)
 
