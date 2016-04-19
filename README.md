@@ -75,6 +75,8 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 
 [Thinking Like an App Designer](https://www.smashingmagazine.com/2015/04/thinking-like-an-app-designer)
 
+[The Guide To UX Design Process & Documentation](https://speckyboy.com/2014/10/21/guide-ux-design-process-documentation-2)
+
 ### View States
 [Mobile Views: The FIVE State Solution](http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack) - Informative article about how to consider each view in your app for a more informative user experience.
 
@@ -107,7 +109,7 @@ Creating a prototype is a powerful way to quickly iterate through ideas. Prototy
 After reading up on best practices and designing a beautiful, native app, it's time to hand off your masterful work. There's lots of ways to deliver your work product to developers
 
 Ideally your deliverables will adhere to the following guidelines:
-- One source of truth. There will be one, easily accessible document which can be referenced for all UI/UX guidance.
+- One source of truth. There will be **one**, easily **accessible** document which can be referenced for all UI/UX guidance.
 - All assets will be exported as PNG files @2x and @3x resolution. Documentation should reference the exported assets by name. This will make it easier for other team members to easily find the correct asset when there are several assets being delivered.
 - Storyboard/artboard depicting the user flow(s) to be developed.
 - Explicit specs for font family, font weight, and font size in points.
