@@ -65,6 +65,8 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 
 [5 Reasons Why Your Android App Should Not Mirror Your iOS App (And Vice Versa)](http://www.detroitlabs.com/blog/2015/10/28/5-reasons-you-dont-want-your-iphone-app-to-look-like-your-android-app) - ... Only 5 reasons?
 
+[Designing for Both Android and iOS](http://webdesign.tutsplus.com/articles/a-tale-of-two-platforms-designing-for-both-android-and-ios--cms-23616)
+
 #### Inspiration
 
 [Mobile Design Patterns](http://pttrns.com)
