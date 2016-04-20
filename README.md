@@ -39,6 +39,14 @@ PaintCode has created an easy-to-digest infographic which depicts the conversion
 
 [The Ultimate Guide to iPhone Resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
+### Auto Layout
+
+Auto Layout is a constraint-based approach to design which allows you to build user interfaces that dynamically respond to both internal and external changes. App developers set up constraints such as fixed height/width, aspect ratio, leading/trailing/top/bottom spacing between elements, etc. In order for Auto Layout to figure out how to lay out a view, the system needs to be able to calculate an element's position in the x and y coordinate space as well as the element's height and width. Keeping this in mind will help you deliver design documents with enough specs for a developer to implement a fully adaptive user interface.
+
+[Auto Layout Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG) - The first section of this guide explains some high level concepts nicely.
+
+[Adaptive User Interfaces](https://developer.apple.com/design/adaptivity)
+
 ### Assets
 
 Assets generated for iOS should be **pixel-specific** in PNG format. I know we just determined that design specs should be given in points, but PNGs are already rasterized unlike programatically created views which are rasterized at runtime. Thus assets must be pixel-specific. If your app is only supporting iOS 8+, then assets should be @2x and @3x resolution.
@@ -118,13 +126,25 @@ Ideally your deliverables will adhere to the following guidelines:
 - Storyboard/artboard depicting the user flow(s) to be developed.
 - Explicit specs for font family, font weight, and font size in points.
 - When providing specs for labels, it is helpful to provide additional details such as the number of lines and how to handle long text (truncate word, wrap text, scale font, etc.).
-- Provide dimensions in points. [Sketch measure plug-in](https://github.com/utom/sketch-measure)
-- Provide all relevant layout constraints (margins, spacing between elements, etc.) in points.
+- Provide dimensions in points.
+- Provide all relevant layout constraints (margins, spacing between elements, etc.) in points. Remember what we learned about Auto Layout.
 - Specify colors used in designs (preferably in RGB as Xcode defaults to defining colors in RGB).
 - Provide prototypes, videos, descriptive diagrams to document and explain how animations and interactions should be implemented.
 - Don't forget to include details about transitions and states (loading, refreshing, etc.)
 
 It's best to provide as much detail as possible. Anything which is not explicitly defined will be left to the interpretation of the developer and/or operating system. _Example: You are designing a user profile. In your designs, the user's name is displayed in System Font, 17pt on one line. You provide specs and only include information about the text font. Now it is up to the developer to determine how a long name should be displayed. If the developer doesn't explicitly specify how to handle a long name, then the label will default to iOS' default handling of text overflow on a label. The lack of additional information has introduced two paths for deviation from your original design, and that's not even including Android, Web, etc. You have been thourough in your design, now it's time to make sure those details are accurately documented so that your hard work is not lost._
+
+#### Automated Red Lining
+
+[Zeplin](https://zeplin.io/features.html#designer)
+
+[Sketch Measure](https://github.com/utom/sketch-measure)
+
+[Markly](http://marklyapp.com)
+
+[SpecKing](http://www.wuwacorp.com/specking)
+
+[Slicy](http://macrabbit.com/slicy)
 
 **Advanced asset delivery - proceed with caution**
 
