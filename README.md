@@ -92,6 +92,8 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 ### View States
 [Mobile Views: The FIVE State Solution](http://scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack) - Informative article about how to consider each view in your app for a more informative user experience.
 
+[Powers of 10: Time Scales in User Experience](https://www.nngroup.com/articles/powers-of-10-time-scales-in-ux) - This is a generic article which focuses on UX responsiveness on the web, but the underlying message definitely carries over to mobile.
+
 ### Prototyping
 
 Creating a prototype is a powerful way to quickly iterate through ideas. Prototypes are also a low(er?) cost way to validate your UX and communicate complex interactions. 
