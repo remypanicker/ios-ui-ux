@@ -49,7 +49,7 @@ Auto Layout is a constraint-based approach to design which allows you to build u
 
 ### Assets
 
-Assets generated for iOS should be **pixel-specific** in PNG format. I know we just determined that design specs should be given in points, but PNGs are already rasterized unlike programatically created views which are rasterized at runtime. Thus assets must be pixel-specific. If your app is only supporting iOS 8+, then assets should be @2x and @3x resolution.
+Assets generated for iOS should be **pixel-specific** in PNG format. I know we just determined that design specs should be given in points, but PNGs are already rasterized unlike programatically created views which are rasterized at runtime. Thus assets must be pixel-specific. If your app is only supporting iOS 8+, then assets should be @2x and @3x resolution. If you are supplying an asset which needs to be rendered with rounded corners, drop shadow, border, etc., those effects can be applied programatically. Whether or not you provide a raw asset or apply the effects before exporting the asset will vary depending on your use case. Apple provides some guidance about templated icon design in the [iOS Human Interface Guidelines: Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html).
 
 **Q:** _Why not use vector based images?_
 
