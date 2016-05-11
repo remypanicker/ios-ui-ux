@@ -39,6 +39,8 @@ PaintCode has created an easy-to-digest infographic which depicts the conversion
 
 [The Ultimate Guide to iPhone Resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
+[Designing at 1x](https://medium.com/shyp-design/design-at-1x-its-a-fact-249c5b896536#.mjwsur8e7)
+
 ### Auto Layout
 
 Auto Layout is a constraint-based approach to design which allows you to build user interfaces that dynamically respond to both internal and external changes. App developers set up constraints such as fixed height/width, aspect ratio, leading/trailing/top/bottom spacing between elements, etc. In order for Auto Layout to figure out how to lay out a view, the system needs to be able to calculate an element's position in the x and y coordinate space as well as the element's height and width. Keeping this in mind will help you deliver design documents with enough specs for a developer to implement a fully adaptive user interface.
