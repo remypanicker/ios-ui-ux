@@ -65,7 +65,13 @@ Personally, I don't think the drawbacks justify switching to vector based assets
 
 **Q:** _Why can't I provide one (rasterized) asset and let the device upscale or downscale the asset as necessary?_
 
-**A:** Ideally, a compiled app would have all static assets at the exact size which they will be displayed at. Providing a smaller asset forces the device to upscale the asset. After upscaling, the asset may appear blurry, grainy, or pixelated. Alternately, providing a larger asset forces the device to downscale the image. After downscaling an asset, finer details may be harder to discern or difficult to see altogether.
+**A:** Ideally, a compiled app would have all static assets at the exact size which they will be displayed at. 
+Providing a smaller asset forces the device to upscale the asset. After upscaling, the asset may appear blurry, grainy, or pixelated. 
+
+Alternately, providing a larger asset forces the device to downscale the image. After downscaling an asset, finer details may be harder to discern or difficult to see altogether. Further explanation summed up nicely by [Rickster](http://stackoverflow.com/a/26847571):
+> "...downscaling them [assets] in real time has performance costs—they use more memory, they take longer to upload to the GPU, and they take GPU time to render. Some of these costs are trivial, others aren't. (Remember, a 2x image is 4x the data of a 1x one, and a 3x image is 2.25x the data of a 2x one.) And they add up for every image in your app.
+Most importantly, the devices with lower scale factors are the ones with less CPU/GPU/memory resources to spend on downscaling."
+>
 
 #### Designing for iOS
 
