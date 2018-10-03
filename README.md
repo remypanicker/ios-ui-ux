@@ -9,8 +9,6 @@
 
 [UI Design Do’s and Don’ts](https://developer.apple.com/design/tips)
 
-[iOS 7 Transition Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TransitionGuide/index.html#//apple_ref/doc/uid/TP40013174-CH6-SW1) - This guide can be beneficial if you worked with older versions of iOS (1-6) and need a way to grasp Apple's new design principals.
-
 ## UI
 
 ### UIKit
@@ -51,27 +49,11 @@ Auto Layout is a constraint-based approach to design which allows you to build u
 
 ### Assets
 
-Assets generated for iOS should be **pixel-specific** in PNG format. I know we just determined that design specs should be given in points, but PNGs are already rasterized unlike programatically created views which are rasterized at runtime. Thus assets must be pixel-specific. If your app is only supporting iOS 8+, then assets should be @2x and @3x resolution. If you are supplying an asset which needs to be rendered with rounded corners, drop shadow, border, etc., those effects can be applied programatically. Whether or not you provide a raw asset or apply the effects before exporting the asset will vary depending on your use case. Apple provides some guidance about templated icon design in the [iOS Human Interface Guidelines: Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html).
+Apple officially announced support for vector based assets at [WWDC 2017 Session 201](https://developer.apple.com/videos/play/wwdc2017/201?time=2046) for users running Xcode 9+. Assets generated for iOS should be exported @1x in PDF format.
 
-**Q:** _Why not use vector based images?_
+_If you are running an older version of Xcode, assets generated for iOS should be **pixel-specific** in PNG format. I know we just determined that design specs should be given in points, but PNGs are already rasterized unlike programatically created views which are rasterized at runtime. Thus assets must be pixel-specific. If your app is only supporting iOS 8+, then assets should be @2x and @3x resolution._ 
 
-**A:** Short answer, there are still drawbacks to using vector based assets in an iOS project. A couple of articles which mention some of the difficulties are listed below:
-
-[Vector images in Xcode](http://martiancraft.com/blog/2014/09/vector-images-xcode6)
-
-[Arguments against PDF assets](https://bjango.com/articles/idontusepdfs)
-
-Personally, I don't think the drawbacks justify switching to vector based assets. Especially when modern design tools make it so easy to export @2x, @3x, etc.
-
-**Q:** _Why can't I provide one (rasterized) asset and let the device upscale or downscale the asset as necessary?_
-
-**A:** Ideally, a compiled app would have all static assets at the exact size which they will be displayed at. 
-Providing a smaller asset forces the device to upscale the asset. After upscaling, the asset may appear blurry, grainy, or pixelated. 
-
-Alternately, providing a larger asset forces the device to downscale the image. After downscaling an asset, finer details may be harder to discern or difficult to see altogether. Further explanation summed up nicely by [Rickster](http://stackoverflow.com/a/26847571):
-> "...downscaling them [assets] in real time has performance costs—they use more memory, they take longer to upload to the GPU, and they take GPU time to render. Some of these costs are trivial, others aren't. (Remember, a 2x image is 4x the data of a 1x one, and a 3x image is 2.25x the data of a 2x one.) And they add up for every image in your app.
-Most importantly, the devices with lower scale factors are the ones with less CPU/GPU/memory resources to spend on downscaling."
->
+If you are supplying an asset which needs to be rendered with rounded corners, drop shadow, border, etc., those effects can be applied programatically. Whether or not you provide a raw asset or apply the effects before exporting the asset will vary depending on your use case. Apple provides some guidance about templated icon design in the [iOS Human Interface Guidelines: Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html).
 
 #### Designing for iOS
 
@@ -132,13 +114,13 @@ After reading up on best practices and designing a beautiful, native app, it's t
 
 Ideally your deliverables will adhere to the following guidelines:
 - One source of truth. There will be **one**, easily **accessible** document which can be referenced for all UI/UX guidance.
-- All assets will be exported as PNG files @2x and @3x resolution. Documentation should reference the exported assets by name. This will make it easier for other team members to easily find the correct asset when there are several assets being delivered.
+- All assets will be exported as PDF files @1x resolution. Documentation should reference the exported assets by name. This will make it easier for other team members to easily find the correct asset when there are several assets being delivered.
 - Storyboard/artboard depicting the user flow(s) to be developed.
 - Explicit specs for font family, font weight, and font size in points.
 - When providing specs for labels, it is helpful to provide additional details such as the number of lines and how to handle long text (truncate word, wrap text, scale font, etc.).
 - Provide dimensions in points.
 - Provide all relevant layout constraints (margins, spacing between elements, etc.) in points. Remember what we learned about Auto Layout.
-- Specify colors used in designs (preferably in RGB as Xcode defaults to defining colors in RGB).
+- Specify colors used in designs specified as HEX or RGB, but pick one format and stay consistent. Similarly, don't forget to not any changes in alpha, otherwise it is assumed that alpha is 1.
 - Provide prototypes, videos, descriptive diagrams to document and explain how animations and interactions should be implemented.
 - Don't forget to include details about transitions and states (loading, refreshing, etc.)
 
