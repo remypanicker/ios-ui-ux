@@ -1,4 +1,4 @@
-![iOS 9 logo](https://devimages.apple.com.edgekey.net/assets/elements/icons/64x64/ios-9_2x.png)
+![iOS 12 logo](https://developer.apple.com/assets/elements/icons/ios-12/ios-12-96x96_2x.png)
 
 ## Official Apple Resources
 [Official Resources](https://developer.apple.com/resources) - Great way to familiarize yourself with technologies and best practicies; not just limited to design.
